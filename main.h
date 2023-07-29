@@ -32,7 +32,7 @@ char *_strchr(char *s, char c);
 int _strcmp(char *s1, char *s2);
 void exit_builtin(char **args);
 char **sep_commands(char *args);
-void clear_whitespace(char *str);
+void clear_whitespace(char* str);
 
 /* global varaibles */
 extern char **environ;
